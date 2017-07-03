@@ -20,24 +20,26 @@ p{
     margin-left: 10px;
 }
 
-#foto{
-    height: 50vh;
-    background-image: url(foto2.jpg);
-    background-size: cover;
-}
-
 .edit{
     margin-top: 2rem;
     position: absolute;
     margin-left: 70%;
+    background-color: #E3E3E4;
+    color: black;
 }
 
-.botones{
+.btn-menu{
     position: absolute;
 }
 
 .btn-large{
     width: 100%;
+}
+
+.btn:hover,
+.btn-large:hover{
+    background-color: gray;
+    color: whitesmoke;
 }
 
 .card-title{
