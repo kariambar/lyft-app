@@ -1,0 +1,24 @@
+body {
+  background: #FFF;
+  margin: 0 auto;
+  
+  
+}
+
+.head{
+display: inline-block;
+}
+
+.barra{
+  font-size: 10px;
+}
+
+p{
+  font-size: 12px;
+}
+
+.title-movistar{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
