@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 	//llamamos a la ID del botón Sign Up
 	$("#btn-signUp").click(function(){
+		//este es el nuevo redireccionamiento
 		$(this).attr("href","index-signup.html");
 	});
 });
