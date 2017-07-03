@@ -54,3 +54,14 @@ $(document).ready(function(){
 			}	
 		}
 		validacionCorreo();
+	//Validación checkbox
+		function validacionCheck(){
+			if(!condiciones){
+				$(validarCondiciones).text("Acepta las condiciones");
+			}
+		}
+		validacionCheck();
+	});
+});
+
+
