@@ -62,19 +62,35 @@
     <div class="row">
   <div class="input-field col s6 m6">
     <select class="icons">
-      <option value="" disabled selected>Elige tu País</option>
-      <option value="" data-icon="assets/img/chile.jpg" class="left circle" id="chile">Chile(+56)</option>
-      <option value="" data-icon="assets/img/mexico.png" class="left circle" id="mexico">Mexico(+52)</option>
-      <option value="" data-icon="assets/img/peru.png" class="left circle" id="per">Perú(+51)</option>
+      <option value="" disabled selected class="posicion">Elige tu País</option>
+      <option value="chile" data-icon="assets/img/chile.jpg" class="left circle posicion" id="chile">Chile(+56)</option>
+      <option value="mexico" data-icon="assets/img/mexico.png" class="left circle posicion" id="mexico">Mexico(+52)</option>
+      <option value="peru" data-icon="assets/img/peru.png" class="left circle posicion" id="per">Perú(+51)</option>
     </select>
     <label>We'ill send a text to verify your phone</label>
   </div>
   <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Number</label>
+          <input id="number" type="tel" class="validate">
+          <label for="number">Number</label>
         </div>
+
     </div>
 </div>
+  <!-- Modal Trigger -->
+  <!-- <a class="waves-effect waves-light btn" href="#modal1">Modal</a> -->
+
+<!-- Modal Structure -->
+ <div id="modal1" class="modal">
+   <div class="modal-content">
+     <h4>Modal Header</h4>
+     <!--<p id="randomText"></p>-->
+     <input type="text" class="randombox">
+   </div>
+   <div class="modal-footer">
+     <a href="index-registro.html" class="modal-action modal-close waves-effect waves-green btn-flat">Validar</a>
+   </div>
+ </div>
+
 
 </section>
      <!--PRESS CALL-->
@@ -83,7 +99,7 @@
         <div class="row">
          <!--BOTON NEXT-->
             <div class="col s12">
-                <button class="btn waves-effect waves-light btn-large" type="submit" value="Next">Next</button>
+                <a class="btn waves-effect waves-light btn-large" id="boton-next" type="submit" value="Next" href="#modal1">Next</a>
 
         <!--KEYBOARD CALL-->
             <div class="container-flui callme">
