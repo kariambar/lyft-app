@@ -33,3 +33,24 @@ $(document).ready(function(){
 		var validarError = $(errorNombre).append('<p></p>');
 		var validarCorreo = $(errorCorreo).append('<p></p>');
 		var validarCondiciones = $(errorCondiciones).append('<p></p>');
+//Validación nombre
+		function validacionNombre(){
+			if(localStorage.nombre == ""){
+				$(validarError).text("Debes ingresar tu nombre");
+				//$(errorNombre).first();
+			}else if(!/^([a-zA-Z])*$/.test(localStorage.nombre)){
+				$(validarError).text("Deben ser solo letras");
+			}
+			
+		}
+		validacionNombre();
+
+		//Validación correo
+		function validacionCorreo(){
+			if(correo == ""){
+				$(validarCorreo).text("Debes ingresar tu correo");
+			}else if(!(/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$/.test(correo))){
+				$(validarCorreo).text("Debe ser un correo válido");
+			}	
+		}
+		validacionCorreo();
