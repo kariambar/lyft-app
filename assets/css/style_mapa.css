@@ -1,0 +1,33 @@
+.tarifas,
+.box-conductor button,
+.box-conductor p{
+  font-family: 'Open Sans', sans-serif;
+}
+.tarifas{
+  padding: 50px 0;
+}
+
+#tarifa{
+  position:absolute;
+  bottom: 0;
+  z-index: 100; 
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ab47bc;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+  }
+    
+#mapa{
+  height: 590px;
+  z-index: 10;
+}
+.border-mapa{
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
