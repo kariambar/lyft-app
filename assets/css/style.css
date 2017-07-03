@@ -22,3 +22,41 @@ p{
   margin-left: 10px;
 }
 
+.Signup {
+
+  font-weight: bold;  
+
+}
+
+.arrow{
+  margin-top: 15px;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+[type="checkbox"].filled-in:checked+label:after{ /*CHECKBOX-color*/
+  background-color: #3D9BE8;
+  border: 1px solid #3D9BE8;
+}
+
+.btn, .btn-large{   /*Boton NEXT*/
+   background-color: #FF00BA;
+   width: 100%;
+   margin: 0 auto;
+   
+}
+
+a {
+  margin-top: 15px;
+}
+
+
+/**VALIDACIÓN**/
+.input-box p{
+  color: #DF0303;
+  font-size: 12px;
+  margin: 1px;
+}
