@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+/*-------DECORATIVOS HEADER--------*/
+.head{
+display: inline-block;
+}
+
+.barra{
+    font-size: 10px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.title-movistar{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#foto{
+    height: 50vh;
+    background-image: url(foto2.jpg);
+    background-size: cover;
+}
+
+.edit{
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: 70%;
+}
+
+.botones{
+    position: absolute;
+}
+
+.btn-large{
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.yayi{
+    display: inline-block;
+    font-size: 15px;
+}
+
+p.yayi.p{
+    margin-top: 10px;
+}
+
