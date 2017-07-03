@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+/*-------DECORATIVOS HEADER--------*/
+.head{
+display: inline-block;
+}
+
+.barra{
+	font-size: 10px;
+}
+
+p{
+	font-size: 12px;
+}
+
+.title-movistar{
+	font-size: 12px;
+	margin-left: 10px;
+}
+/*-------SIGN UP--------*/
+.Signup {
+  font-weight: bold;  
+
+}
+
+.arrow{
+  margin-top: 15px;
+}
+
+.subtitle {
+  font-size: 12px;
+
+}
+
+hr{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn, .btn-large{   /*Boton NEXT*/
+   background-color: #FF00BA;
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 7rem;
+   
+}
+/*------- CALL NUMB--------*/
+.callme{
+  background-color: whitesmoke;
+  height: 18.5rem;
+  width: 100%;
+}
+
+.digit{
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  height: 8vh;
+  font-size: 20px;
+}
+ .digit:hover{
+  background-color: #FF00BA;
+  color:white;
+ }
+
+ .sub{
+  font-size: 9px;
+  padding-top: -10px;
+ }
