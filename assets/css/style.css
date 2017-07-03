@@ -57,9 +57,6 @@ li .rosado{
 	color: white;
 } 
 
-.side-nav li >a i:hover {
+.side-nav li >a>i:hover {
 	color: white;
 } 
-.blanco{
-	margin-right: 40px;
-}
