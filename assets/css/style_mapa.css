@@ -1,4 +1,25 @@
 .tarifas,
+
+/*-------DECORATIVOS HEADER--------*/
+.head{
+display: inline-block;
+}
+
+.barra{
+  font-size: 10px;
+}
+
+p{
+  font-size: 12px;
+}
+
+.title-movistar{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+
+/*-------mapa --------*/
 .box-conductor button,
 .box-conductor p{
   font-family: 'Open Sans', sans-serif;
@@ -21,6 +42,7 @@
     letter-spacing: .5px;
     transition: .2s ease-out;
     cursor: pointer;
+    width: 100%;
   }
     
 #mapa{
