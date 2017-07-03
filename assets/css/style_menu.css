@@ -33,7 +33,6 @@
 .centro{
 	padding: 10px;
 }
-
 li:hover{
 	background-color: grey;
 	color: white;
@@ -43,9 +42,8 @@ li:hover{
 	width: 30px;
 	height: 30px;
 }
-li .rosado{
-	color: pink;
-}
+
+/*Poniendo rosado a segundo link*/
 .side-nav li >a.rosado{
 	color: #ea0b8c;
 } 
@@ -53,10 +51,10 @@ li .rosado{
 	color: #ea0b8c;
 } 
 
+/*Intentando cambiar color blanco a textos e iconos*/
 .side-nav li >a:hover {
 	color: white;
 } 
-
 .side-nav li >a>i:hover {
 	color: white;
 } 
