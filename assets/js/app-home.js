@@ -9,6 +9,6 @@ $(document).ready(function(){
 
 	//llamamos a la ID del botón Sign Up
 	$("#btn-signUp").click(function(){
-		$(this).attr("href","index-signup-country.html");
+		$(this).attr("href","index-signup.html");
 	});
 });
