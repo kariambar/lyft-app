@@ -8,3 +8,14 @@
       onClose: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is closed
     }
   );
+
+/*Ir al Home*/
+$("#inicio").click(function(){
+		//este es el nuevo redireccionamiento
+		$(this).attr("href","index.html");
+});
+/*Ir a ver perfil*/
+$("#perfil").click(function(){
+		//este es el nuevo redireccionamiento
+		$(this).attr("href","index-perfil.html");
+});
