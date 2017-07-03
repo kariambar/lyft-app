@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style-main-signup.css">
 </head>
 <body>
@@ -59,6 +58,24 @@
     </section>
     <!--SECTION SIGN UP COUNTRY - NUMBER-->    
 <section class="country">
+    <div class="container">
+    <div class="row">
+  <div class="input-field col s6 m6">
+    <select class="icons">
+      <option value="" disabled selected>Elige tu País</option>
+      <option value="" data-icon="assets/img/chile.jpg" class="left circle">Chile(+56)</option>
+      <option value="" data-icon="assets/img/mexico.png" class="left circle">Mexico(+52)</option>
+      <option value="" data-icon="assets/img/peru.png" class="left circle">Perú(+51)</option>
+    </select>
+    <label>We'ill send a text to verify your phone</label>
+  </div>
+  <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Number</label>
+        </div>
+</div>
+</div>
+
 </section>
      <!--PRESS CALL-->
 <section class="call-user">
@@ -140,7 +157,8 @@
     </div>
 </div>        
 </section>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script src="assets/js/main-signup.js"></script>
 </body>
 </html>      
