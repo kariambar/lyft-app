@@ -38,7 +38,6 @@ li:hover{
 	background-color: grey;
 	color: white;
 }
-
 /*Tamaño icono de volante*/
 .icono{
 	width: 30px;
@@ -50,6 +49,9 @@ li .rosado{
 .side-nav li >a.rosado{
 	color: #ea0b8c;
 } 
+.side-nav li >a.rosado>i{
+	color: #ea0b8c;
+} 
 
 .side-nav li >a:hover {
 	color: white;
@@ -58,3 +60,6 @@ li .rosado{
 .side-nav li >a i:hover {
 	color: white;
 } 
+.blanco{
+	margin-right: 40px;
+}
