@@ -28,7 +28,11 @@
 	$("#boton-next").click(function(){
        var kei = "";
        $(".randomText").remove();
-       kei = "LAB-" + Math.floor(Math.random()*1000);
+       //kei = "LAB-" + Math.floor(Math.random()*1000);
+	kei = "LAB-";
+       for (i=0;i<3;i++){
+           kei += Math.floor(Math.random()*10);
+       }
    $(".randombox").before('<p class="randomText"></p>')
    $(".randomText").append(kei);
 
