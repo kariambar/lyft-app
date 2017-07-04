@@ -2,7 +2,7 @@ body {
   background: #FFF;
   margin: 0 auto;
   
-  
+ /*Decoracion*/ 
 }
 
 .head{
@@ -21,6 +21,7 @@ p{
   font-size: 12px;
   margin-left: 10px;
 }
+/*Sign up*/
 
 .Signup {
 
@@ -55,7 +56,7 @@ a {
 
 
 /**VALIDACIÓN**/
-.input-box p{
+div.input-box .text{
   color: #DF0303;
   font-size: 12px;
   margin: 1px;
