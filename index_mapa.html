@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <!---->
   <html>
   <head>
@@ -6,13 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import FA Icons-->
+    <script src="https://use.fontawesome.com/52df75c062.js"></script>
     <!-- Compiled and minified CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style_mapa.css">
   </head>
   <body>
-  <!--DECORATIVOS HEADER-->
+
+<!--SECTION MENU DESPLEGABLE-->
+<section id="menu">
+	<div class="container">
+		<div class="row">
+			<div class="col 12">
+				<ul id="slide-out" class="side-nav">
+				<div class="header">
+				<i class="fa fa-circle mini" aria-hidden="true"></i>
+				<i class="fa fa-circle mini" aria-hidden="true"></i>
+				<i class="fa fa-circle mini" aria-hidden="true"></i>
+				<i class="fa fa-circle-thin mini" aria-hidden="true"></i>
+				<i class="fa fa-circle-thin mini" aria-hidden="true"></i>
+				<span class="negrita">movistar</span>
+				<i class="fa fa-wifi" aria-hidden="true"></i>
+				<span class="right negrita">5:27 p.m.</span>
+				</div>
+				<div class="center-align centro">
+				<img class="circle responsive-img perfil2" src="assets/img/mercedes.jpg" alt="">
+				<div class="circulo"></div>
+				<h5>Mercedes</h5>
+				<h6><a class="gris" id="perfil">View profile</a></h6>
+				</div>
+				<div class="segundo">
+				  <div class="divider"></div>
+			      <li><a id="inicio"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>Home</a></li>
+			      <div class="divider"></div>
+			      <li><a class="rosado" href="#!"><i class="fa fa-gift fa-2x" aria-hidden="true"></i>Free Rides</a></li>
+			      <div class="divider"></div>
+			      <li><a href="#!"><i class="fa fa-history fa-2x" aria-hidden="true"></i>Ride History</a></li>
+			      <div class="divider"></div>
+			      <li><a href="#!"><i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>Payment</a></li>
+			      <div class="divider"></div>
+			      <li><a href="#!"><i class="fa fa-question fa-2x" aria-hidden="true"></i>Help</a></li>
+			      <div class="divider"></div>
+			      <li><a href="#!"><i class="fa fa-cog fa-2x" aria-hidden="true"></i>Settings</a></li>
+			      <div class="divider"></div>
+			      <li><a href="#!"><i class="fa fa-car fa-2x" aria-hidden="true"></i>Sign up to drive</a></li>
+			    </ul>
+			    </div>
+			      <!--DECORATIVOS HEADER-->
   <section class="decorativo">
     <div class="container-flui">
         <div class="row">
@@ -43,7 +85,7 @@
         <div class="container">
           <div class="row">                      
               <div class="text-center">
-                <button type="button" class="btn btn-default" id="tarifa" id="destino"><strong>Â¡Set Pickut!</strong></button>
+                <button type="button" class="btn btn-default" id="tarifa" id="destino"><strong>¡Set Pickut!</strong></button>
               </div>    
               <div class="input-box">
                 <input type="text" placeholder="Ingresa tu punto de partida" id="start">
@@ -56,11 +98,19 @@
         </div>
       </div>
     </section>
+			</div>
+		</div>
+	</div>
+</section> 
+<!--FIN SECTION MENU DESPLEGABLE-->
+  
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABmByPbqO2UuWNp12yEc8mARWnjI5krLE&callback=initMap&libraries=places"
     type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="assets/js/app_mapa.js"></script>
