@@ -14,12 +14,12 @@ Este ejercicio permite desarrollar una aplicación en el área de transporte, qu
 Integrantes y responsabilidades:
 
     Maibet Torres-- Creación de Repositorio.
-    Susana Arce-- Diseño de mapa y readme.
-    Valentina Rodriguez -- Crear funcionalidad
-    Diana Monsalve -- Crear funcionalidad 
-    CLaudia Rivera -- Crear funcionalidad 
-    María José Pozo -- Crear funcionalidad 
-    Karina Palacios -- Creación de
+    Susana Arce-- Función de mapa y readme.
+    Valentina Rodriguez -- Maquetado y validación de registro.
+    Diana Monsalve -- Crear funcionalidad en perfil.
+    CLaudia Rivera -- Crear funcionalidad en menu.
+    María José Pozo -- Crear funcionalidad Jquery.
+    Karina Palacios -- Creación de registro.
     
 Resultado:
 
