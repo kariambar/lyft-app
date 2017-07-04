@@ -4,7 +4,7 @@ Hacer una  aplicación Lytf, diseñada para hacer más fácil el traslado de un 
     
 Metodología del trabajo:
 
-Cada integrante tiene una responsabilidad asignada como equipo, que ha sido trabajado en metodología Agile para así mejorar la eficiencia tanto en producción como en calidad en nuestro resultado.
+Cada integrante tiene una responsabilidad asignada como equipo, que ha sido trabajada en metodología Agile para así mejorar la eficiencia tanto en producción como en calidad en nuestro resultado.
 Utilizamos como herramienta de planificación Trello, donde se registran las desiciones importantes como equipo, y las tareas necesarias para llevar a cabo el desarrollo del proyecto.
 
 Funcionalidad del proyecto:
