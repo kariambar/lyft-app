@@ -23,5 +23,5 @@ Integrantes y responsabilidades:
     
 Resultado:
 
-Nuestro trabajo como squad se basa en principios y valores de trabajo que hemos adquirido a lo largo de estos meses en el curso de Laboratoria. Se espera seguir perfeccionando el desarrollo de esta aplicación para desarrollo de nuestras capacidades como equipo. 
+Nuestro trabajo como squad se basa en principios y valores de trabajo que hemos adquirido a lo largo de estos meses en el curso de Laboratoria. Se espera seguir perfeccionando esta aplicación para desarrollo de nuestras capacidades como equipo. 
 
