@@ -55,3 +55,68 @@ p{
   padding: 10px;
   border: 1px solid #ffffff;
 }
+
+/*Foto de perfil chica*/
+.perfil{
+	width: 50px;
+	height: 50px;
+}
+/*Foto del centro menu desplegable*/
+.perfil2{
+	width: 100px;
+	height: 100px;
+	border: 6px solid #d4d1d1;
+}
+.circulo{
+	background-color: gray;
+}
+/*Para iconos circulos*/
+.mini{
+	font-size: 10px;
+}
+/*Separación de parte de arriba*/
+.header{
+	padding-left: 5px;
+}
+.negrita{
+	font-weight: bold;
+}
+.gris{
+	color: gray;
+}
+/*Separación parte del centro*/
+.segundo{
+	padding-left: 20px;
+}
+.centro{
+	padding: 10px;
+}
+li:hover{
+	background-color: grey;
+	color: white;
+}
+/*Tamaño icono de volante*/
+.icono{
+	width: 30px;
+	height: 30px;
+}
+
+/*Poniendo rosado a segundo link*/
+.side-nav li >a.rosado{
+	color: #ea0b8c;
+} 
+.side-nav li >a.rosado>i{
+	color: #ea0b8c;
+} 
+
+/*Intentando cambiar color blanco a textos e iconos*/
+.side-nav li >a:hover {
+	color: white;
+} 
+.side-nav li >a>i:hover {
+	color: white;
+} 
+/*Cursor*/
+#perfil,#inicio{
+	cursor: pointer;
+}
