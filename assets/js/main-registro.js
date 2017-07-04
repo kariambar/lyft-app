@@ -33,7 +33,8 @@ $(document).ready(function(){
 		var validarError = $(errorNombre).append('<p></p>');
 		var validarCorreo = $(errorCorreo).append('<p></p>');
 		var validarCondiciones = $(errorCondiciones).append('<p></p>');
-//Validación nombre
+
+		//Validación nombre
 		function validacionNombre(){
 			if(localStorage.nombre == ""){
 				$(validarError).text("Debes ingresar tu nombre");
@@ -54,7 +55,8 @@ $(document).ready(function(){
 			}	
 		}
 		validacionCorreo();
-	//Validación checkbox
+
+		//Validación checkbox
 		function validacionCheck(){
 			if(!condiciones){
 				$(validarCondiciones).text("Acepta las condiciones");
@@ -63,5 +65,3 @@ $(document).ready(function(){
 		validacionCheck();
 	});
 });
-
-
